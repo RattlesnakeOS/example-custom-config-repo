@@ -4,7 +4,7 @@
   <remote name="seedvault-app" fetch="https://github.com/seedvault-app/" revision="master" />
 
   <!-- this custom repo - do not change path -->
-  <project path="vendor/custom" name="example-custom-config" remote="personal-remote" />
+  <project path="vendor/custom" name="example-custom-config-repo" remote="personal-remote" />
 
   <!-- microg repo from rattlesnakeos -->
   <project path="platform/prebuilts/microg" name="microg" remote="rattlesnakeos" clone-depth="1" />
