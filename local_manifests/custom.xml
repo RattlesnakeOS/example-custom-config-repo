@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="personal-remote" fetch="https://github.com/rattlesnakeos/" revision="11.0" />
-  <remote name="seedvault-app" fetch="https://github.com/seedvault-app/" revision="master" />
+  <remote name="seedvault-app" fetch="https://github.com/seedvault-app/" revision="android12" />
 
   <!-- this custom repo - do not change path -->
   <project path="vendor/custom" name="example-custom-config-repo" remote="personal-remote" />
@@ -10,6 +10,6 @@
   <project path="platform/prebuilts/microg" name="microg" remote="rattlesnakeos" clone-depth="1" />
 
   <!-- seedvault pinned to a specific revision -->
-  <project path="external/seedvault" name="seedvault" remote="seedvault-app" revision="ecdc0c27165b97e42ce72cf859edbf62c5b045c8" />
+  <project path="external/seedvault" name="seedvault" remote="seedvault-app" />
 
 </manifest>
